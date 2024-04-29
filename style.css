@@ -1,0 +1,296 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#homebody {
+    background-color: rgb(61, 57, 53);
+    color: white;
+    background-position: top;
+    background-image: url('carhero.jpg');
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(45,45,50,1) 35%, rgba(65,100,107,1) 100%);
+    margin: 0;
+    padding-bottom: 50px;
+    height: 100%;
+    overflow-x: hidden;
+    scrollbar-gutter: stable both-edges;
+}
+
+.homeheader {
+    font-size: 35px;
+    text-align: center;
+}
+
+.homeheader img {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+}
+
+header a {
+    color: rgb(255, 248, 248);
+    text-decoration: none;
+    mix-blend-mode: screen;
+    transition: all .5s ease;
+}
+
+.homenav {
+    text-align: center;
+    word-spacing: 10px;
+}
+
+.pagenav h1{
+    margin-top: 0;
+}
+
+.homenav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.homenav a:hover, .pagenav h1:hover {
+    color: rgb(82, 82, 82);
+    mix-blend-mode: screen;
+}
+
+*:hover {
+    transition: all;
+    transition-duration: .5s;
+}
+
+.pagenav {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    width: 100%;
+}
+
+#pageheader img {
+    width: 300px;
+    display: flex;
+    margin: auto;
+    transition: all .5s ease;
+}
+
+#pageheader img:hover {
+    transform: translateY(-3px);
+}
+
+.pagenav h1 {
+    color: white;
+}
+
+.pagenav a {
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    transition: all .5s ease;
+}
+
+.pagenav a:hover {
+    color: rgb(114, 111, 111);
+}
+
+header a:hover {
+    color: rgb(101, 111, 138);
+}
+
+.selectionheadings, .selectionheadings a {
+    color: white;
+    padding-bottom: 35px;
+}
+
+.guidesection {
+    font-size: 15px;
+    color: white;
+    padding: 25px;
+    text-align: left;
+}
+
+.guidesection p {
+    color: rgb(190, 190, 190);
+}
+
+.guidesection h1, p{
+    padding-left: 15px;
+}
+
+.newscontainer {
+    max-width: 100rem;
+    margin-inline: auto;
+    padding-inline: 2rem;
+}
+
+.newsgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.historybox {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.historybox p, .historybox h3, .historybox li {
+    visibility: hidden;
+}
+
+.historybox:hover p, .historybox:hover h3, .historybox:hover li {
+    visibility: visible;
+    transition: all .5s ease;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+}
+
+.newscard a {
+    color: white;
+    text-decoration: none;
+}
+
+.newscard h2:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.newscard img {
+    width: 75%;
+    aspect-ratio: 15 / 8;
+    object-fit: cover;
+    display: block;
+}
+
+.newscard {
+    opacity: 0.7;
+}
+
+.newscard:hover {
+    transform: translateY(-10px);
+    background-color: rgba(255, 255, 255, 0);
+    opacity: 1;
+}
+
+.cardcontent {
+    color: white;
+    text-align: left;
+    font-size: 12px;
+}
+
+.historycardcontent {
+    color: white;
+    text-align: left;
+    font-size: 12px;
+    padding: 25px;
+}
+
+.overlay {
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(45,45,50,1) 35%, rgba(65,100,107,1) 100%);
+}
+
+.historybox1 {
+    background-image: url('ae86bg.jpg');
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.historybox2 {
+    background-image: url('gt86bg.jpg'); 
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.historybox3 {
+    background-image: url('gr86bg.jpg');
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.historybox1 p, h1, .historybox2 p, h1, .historybox3 p, h1 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.historybox1:hover .overlay {
+    opacity: 1;
+}
+
+.historybox2:hover .overlay {
+    opacity: 1;
+}
+
+.historybox3:hover .overlay {
+    opacity: 1;
+}
+
+.newscard {
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.353);
+    box-shadow: 0 0 5em black;
+    transition: all .5s ease;
+}
+
+.form {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+.selectionheadings a {
+    color: rgb(89, 89, 142);
+    text-decoration: none;
+    transition: 0.5s all ease-in-out;
+}
+
+.selectionheadings a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+main {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+footer {
+    padding-top: 500px;
+}
+
+@media(max-width:700px) {
+
+    #homebody {
+        background-image: url('carhero2.jpg');
+        background-size: 100%;
+    }
+
+    .pagenav {
+        font-size: small;
+    }
+
+    .pagenav a {
+        padding: 10px;
+    }
+
+    .newsgrid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .historycardcontent {
+        color: white;
+        text-align: left;
+    }
+
+}
